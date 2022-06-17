@@ -18,9 +18,11 @@ let mailChoosen = false;
  for (let index = 0; index < mailList.length; index++) {
     console.log(index);
 
+    const singleMail = mailList[index];
+
     // ora stabilisco un'identità fra l'elemento cercato dall'utente e l'elemento presente nell'array
 
-    if( userMail === mailList ){
+    if( userMail === singleMail ){
         mailChoosen = true;
     }
 
