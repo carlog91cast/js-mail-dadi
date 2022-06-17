@@ -38,9 +38,9 @@
 
 //assegno il numero ai due giocatori
 
-const pcNum = Math.floor( (Math.random() * (7 - 1) ) +1);
+const pcNum = Math.floor( (Math.random() * 6 ) +1);
     console.log(pcNum)
-const userNum = Math.floor( (Math.random() * (7 - 1) ) +1);
+const userNum = Math.floor( (Math.random() * 6 ) +1);
     console.log(userNum)
 // pongo la condizione in base alla quale metto in relazione i due num per stabilire chi sia il maggiore
 
